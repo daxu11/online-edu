@@ -1,0 +1,14 @@
+server:
+  port: 8090
+
+spring:
+  application:
+    name: edu-config-boot
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://gitee.com/daxu111/lagou-edu-repo.git
+          username: 19861905101
+          password: Sun1318275112
+          default-label: master
