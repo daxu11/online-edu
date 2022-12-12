@@ -26,8 +26,8 @@ public class PromotionSpaceController {
     private IPromotionSpaceService promotionSpaceService;
 
 
-    @RequestMapping("getAllSpace")
-    public List<PromotionSpace> getAllSpace() {
+    @RequestMapping("/getAllSpaces")
+    public List<PromotionSpace> getAllSpaces() {
         List<PromotionSpace> list = promotionSpaceService.list();
         return list;
     }
